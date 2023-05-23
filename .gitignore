@@ -1,5 +1,7 @@
 data/*
 !data/out
 data/out/*
+!data/out/.gitkeep
 generated/*
+!generated/.gitkeep
 LSTM/models/*
