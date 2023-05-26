@@ -23,7 +23,7 @@ To be able to use this tool, you must have the following installed:
 
     ```bash
     cd BS3203
-    pip3 install numpy tensorflow
+    pip install numpy tensorflow spamcheck
     ```
 
 ## Getting Started
@@ -82,5 +82,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 ## Acknowledgements
 
 - [Enron Dataset](https://www.cs.cmu.edu/~enron/) - The dataset used
+- [SpamAssassin](https://spamassassin.apache.org/) - The email classifier
 
 
