@@ -44,7 +44,7 @@ With your data prepared and formatted, you can now train the machine learning mo
 
 Run the script `train_model.py`.
 
-	python train_model.py
+	python LSTM/train_model.py
 
 ### Parameters
 All parameters can be found at the top of the script.
@@ -61,7 +61,7 @@ With your data prepared and formatted, you can now train the machine learning mo
 
 Run the script `run_model.py`.
 
-    python run_model.py
+    python LSTM/run_model.py
 
 ### Parameters
 All parameters can be found at the top of the script.
@@ -74,6 +74,15 @@ All parameters can be found at the top of the script.
 **TEMPERATURE**: Controls the randomness of predictions. With a small temperature, the model makes more predictable predictions. With a higher temperature, the model generates more diverse and potentially more creative but less accurate outputs.
 
 **EMAIL_COUNT**: Defines the number of emails that the script will generate. The script will generate this many emails and save them in a list. Each email will be a string of length `TEXT_LENGTH`, generated using the model.
+
+
+## Scoring the Emails
+
+After writing all the necessary emails, they can now be scored using SpamAssassin. This will give each email a score; with anything over 5 being considered spam.
+
+Run the script `score_emails.py`.
+
+    python score_emails.py
 
 ## License
 
